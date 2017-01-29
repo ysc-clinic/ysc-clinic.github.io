@@ -149,7 +149,7 @@ p {
 }
 
 .background-image-overlay {
-    opacity: 0.3;
+    opacity: 0.8;
     display:block;
     position: fixed;
     top:0;
