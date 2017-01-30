@@ -741,7 +741,7 @@ h6 {
         }
 
         #main-content .grid .text-content {
-            padding-left:35%;
+            padding-left:30%;
         }
     }
     @media (min-width: 1200px) {
@@ -931,7 +931,7 @@ h6 {
 #main-content .feature-columns .feature-col .thumbnail .image-container {
     display:block;
     width:100%;
-    max-width: 100%;
+    max-width: 85%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -1164,6 +1164,11 @@ h6 {
     color: #444444 !important;
 }
 
+#featured-content-wrapper {
+
+  bottom:5% !important;
+}
+
 /* -------------- GENERAL CAROUSEL ----------------- */
 #main-content .section-wrapper.modified-height .carousel {
     height:100%;
@@ -1177,12 +1182,15 @@ h6 {
 }
 
 #main-content .carousel .carousel-inner {
+
     width:86%;
     margin-left:7%;
     margin-right:7%;
+
 }
 
 #main-content .carousel .carousel-inner .item {
+      padding-top: 100px;
     height:100%;
     text-align: center;
 }
@@ -1231,7 +1239,7 @@ h6 {
 
 #main-content .carousel .carousel-indicators.title-indicators {
     position: absolute;
-    bottom: -5%;
+    bottom: 12%;
     left: 0;
     z-index: 15;
     width: 100%;
