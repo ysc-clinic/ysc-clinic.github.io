@@ -1400,6 +1400,9 @@ h6 {
 /* ====================================================
    MODAL POPUP
    ==================================================== */
+.align-left {
+  text-align: left !important;
+}
 
 .content-to-populate-in-modal {
     display:none !important;
