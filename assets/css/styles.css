@@ -1164,6 +1164,11 @@ h6 {
     color: #444444 !important;
 }
 
+#professions-content-wrapper{
+  bottom:6% !important;
+  position: absolute !important; 
+}
+
 #featured-content-wrapper {
 
   bottom:5% !important;
