@@ -895,7 +895,7 @@ h6 {
     border: 1px solid transparent;
     border: 1px solid rgba(255,255,255,0);
     border-radius: 0;
-    padding:0;
+    //padding:0;
     color:#fff;
     font-size:0.85em;
     text-align: left;
@@ -931,7 +931,7 @@ h6 {
 #main-content .feature-columns .feature-col .thumbnail .image-container {
     display:block;
     width:100%;
-    max-width: 85%;
+    max-width: 50%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
