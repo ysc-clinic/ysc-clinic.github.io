@@ -929,9 +929,7 @@ h6 {
     text-shadow:none;
 }
 
-.projectsss {
-  width: 33% !important;
-}
+
 
 #main-content .feature-columns .feature-col .thumbnail .image-container {
     display:block;
@@ -1024,6 +1022,9 @@ h6 {
         #main-content .feature-columns .feature-col .thumbnail .caption {
             padding:13px 17px 15px 17px;
         }
+
+        .projectsss {
+            width: 33% !important;
     }
     @media (min-width: 1200px) {
 
@@ -1170,13 +1171,24 @@ h6 {
 }
 
 #professions-content-wrapper {
-  bottom:6% !important;
-  position: absolute !important;
+  //bottom:6% !important;
+  //position: absolute !important;
+
 }
+  @media (min-width: 768px) {
+    #professions-content-wrapper {
+      padding-top: 4% !important;
+    }
+  }
+  @media (min-width: 992px) {
+    #professions-content-wrapper {
+    padding-top: 7% !important;
+    }
+  }
 
 #featured-content-wrapper {
 
-  bottom:5% !important;
+  //bottom:5% !important;
 }
 
 /* -------------- GENERAL CAROUSEL ----------------- */
