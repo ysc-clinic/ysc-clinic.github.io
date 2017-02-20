@@ -1022,9 +1022,6 @@ h6 {
         #main-content .feature-columns .feature-col .thumbnail .caption {
             padding:13px 17px 15px 17px;
         }
-
-        .projectsss {
-            width: 33% !important;
     }
     @media (min-width: 1200px) {
 
@@ -1170,7 +1167,15 @@ h6 {
     color: #444444 !important;
 }
 
-#professions-content-wrapper {
+
+
+  @media (min-width: 992px) {
+    .projectsss {
+      width: 33% !important;
+    }
+  }
+
+/*#professions-content-wrapper {
   //bottom:6% !important;
   //position: absolute !important;
 
@@ -1189,7 +1194,7 @@ h6 {
 #featured-content-wrapper {
 
   //bottom:5% !important;
-}
+}*/
 
 /* -------------- GENERAL CAROUSEL ----------------- */
 #main-content .section-wrapper.modified-height .carousel {
